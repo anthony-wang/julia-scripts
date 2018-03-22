@@ -1,4 +1,6 @@
 @time versioninfo()
+
+println("Adding packages")
 @time Pkg.add("ExcelReaders")
 
 @time using DataFrames, ExcelReaders
