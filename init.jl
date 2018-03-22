@@ -1,5 +1,3 @@
-@time versioninfo()
-
 println("Adding packages")
 @time Pkg.add("ExcelReaders")
 
