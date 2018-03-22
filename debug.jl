@@ -2,4 +2,6 @@
 
 @time versioninfo()
 
-whos()
+println("\n")
+
+@time whos()

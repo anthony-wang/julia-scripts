@@ -4,4 +4,4 @@
 @time using Gadfly
 @time using Makie, GeometryTypes, Colors
 
-println("Done!")
+println("Done!\n")

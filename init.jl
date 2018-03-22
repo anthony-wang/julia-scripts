@@ -1,6 +1,7 @@
 # init.jl
 
-println("Adding packages")
+println("Adding packages\n")
+@time Pkg.add("Cairo")
 @time Pkg.add("ExcelReaders")
 
-println("Done!")
+println("Done!\n")

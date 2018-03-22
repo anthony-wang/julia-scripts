@@ -1,6 +1,6 @@
 # maintenance.jl
 
-println("Updating all packages")
+println("Updating all packages\n")
 @time Pkg.update()
 
-println("Done!")
+println("Done!\n")
