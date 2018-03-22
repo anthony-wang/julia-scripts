@@ -1,4 +1,4 @@
-versioninfo()
+@time versioninfo()
 println("Updating all packages")
-Pkg.update()
+@time Pkg.update()
 println("Done!")
